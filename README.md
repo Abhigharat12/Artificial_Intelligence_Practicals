@@ -1,3 +1,4 @@
-#### AI PRACTICALS FOR TE CSE STUDENTS 
-https://github.com/user-attachments/assets/e0eb8ad1-1125-49b9-ada9-594f909afab5
-
+<div align="center">
+  <h1>AI PRACTICALS FOR (T.E.) CSE STUDENTS</h1>
+  <img src="https://github.com/user-attachments/assets/8b65c1c2-5604-4f23-9925-920c67faf0c3" alt="AI" />
+</div>
