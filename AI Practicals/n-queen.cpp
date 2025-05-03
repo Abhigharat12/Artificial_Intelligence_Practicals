@@ -1,7 +1,4 @@
 #include <iostream>
-#include <vector>
-#include <cmath>
-
 using namespace std;
 
 bool isSafe(int board[][10], int row, int col, int n) {
