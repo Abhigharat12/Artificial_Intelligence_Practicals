@@ -58,7 +58,7 @@ int main() {
 
 	for(int i=0;i<n;i++){
 		for(int j=i+1;j<n;j++){
-			cout<<"Do you want to add the Edge between "<<i<<" and "<<j<<"?. (Y or N) ";
+			cout<<"Do you want edge between "<<i<<" and "<<j<<"?. (Y or N) ";
 			char s;	cin>>s;
 			if(s=='y' || s=='Y'){
 				adj_mat[i][j] = adj_mat[j][i] = 1;
@@ -97,3 +97,19 @@ int main() {
 	cout<<"Program Finished ";
 	return 0;
 }
+
+
+/* demonstration DFS
+
+Enter the total number of nodes in the graph --> 3
+Do you want edge between 0 and 1? Y
+Do you want edge between 0 and 2? N
+Do you want edge between 1 and 2? Y
+
+Adjacency Matrix
+0 1 0
+1 0 1
+0 1 0
+
+output:
+0 --> 1 --> 2 --> NULL */
